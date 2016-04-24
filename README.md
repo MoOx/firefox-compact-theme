@@ -1,5 +1,7 @@
 # Firefox Compact theme
 
+[![Join the chat at https://gitter.im/MoOx/firefox-compact-theme](https://badges.gitter.im/MoOx/firefox-compact-theme.svg)](https://gitter.im/MoOx/firefox-compact-theme?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Support on gitter chat](https://img.shields.io/badge/support-gitter%20chat-E40255.svg)](https://gitter.im/MoOx/firefox-compact-theme)
 
 [![Repo on GitHub](https://img.shields.io/badge/repo-GitHub-3D76C2.svg)](https://github.com/MoOx/firefox-compact-theme)
