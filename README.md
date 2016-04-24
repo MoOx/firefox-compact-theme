@@ -8,7 +8,9 @@
 
 > A simple Firefox compact theme
 
-<img src="screenshot.png" align="center" />
+<p align="center">
+  <img alt="" src="screenshot.png" />
+</p>
 
 **For now, only tested on OS X. Improvements are welcome.**
 
