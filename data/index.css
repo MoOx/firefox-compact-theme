@@ -1,0 +1,77 @@
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/* center mac os button */
+#titlebar,
+#titlebar-content {
+  display: flex;
+  align-items: stretch;
+}
+
+#titlebar-buttonbox-container {
+  margin-top: 0px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --space-above-tabbar: 0px !important;
+  --tab-toolbar-navbar-overlap: 0px;
+  --navbar-tab-toolbar-highlight-overlap: 0px;
+  --tab-min-height: 30px;
+}
+
+/* smaller wasted width between mac os buttons and tabs */
+#tabbrowser-tabs {
+  margin-left: -1.5rem !important;
+}
+
+/* tabs style */
+
+/* remove rounded border */
+.tab-background {
+  opacity: 0; /* can't hide, otherwise, click don't work anymore */
+}
+
+/* remove space related to rounded border */
+.tabs-newtab-button {
+  -moz-margin-end: 0 !important;
+  -moz-margin-start: 0 !important;
+}
+
+/* tab colors (border, background) */
+.tabbrowser-tab {
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+}
+
+.tabbrowser-tab:hover {
+  border-color: rgba(0,0,0, .2);
+  background: rgba(255,255,255, .5);
+  margin-bottom: 1px;
+}
+
+.tabbrowser-tab[visuallyselected=true] {
+  border-color: rgba(0,0,0, .3);
+  background: rgba(255,255,255, .85);
+  margin-bottom: 1px;
+}
+
+/* smaller address bar*/
+#back-button {
+  height: 24px !important;
+  width: 24px !important;
+  border-radius: 3px;
+  position: relative;
+  z-index: 1;
+}
+
+#nav-bar .toolbarbutton-1 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* hide Beyong Australis slimmer line */
+#theFoxOnlyBetter-slimChrome-slimmer {
+  display: none;
+}

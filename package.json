@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "title": "Compact theme",
+  "name": "firefox-compact-theme",
+  "version": "0.0.0",
+  "description": "A simple Firefox compact theme",
+  "keywords": [
+    "compact",
+    "theme"
+  ],
+  "author": "Maxime Thirouin",
+  "license": "MIT",
+  "repository": "https://github.com/MoOx/firefox-compact-theme.git",
+  "#repositories": "https://github.com/npm/npm/issues/11315",
+  "repositories": [
+    "https://github.com/MoOx/firefox-compact-theme.git",
+    "https://gitlab.com/MoOx/firefox-compact-theme.git",
+    "https://bitbucket.org/MoOx/firefox-compact-theme.git"
+  ],
+  "engines": {
+    "firefox": ">=45.0a1"
+  },
+  "devDependencies": {
+    "jpm": "^1.0.7"
+  },
+  "scripts": {
+    "start": "jpm watchpost --post-url http://localhost:8888/",
+    "build": "jpm post --post-url http://localhost:8888/"
+  }
+}
