@@ -2,7 +2,7 @@
   "private": true,
   "title": "Compact theme",
   "name": "firefox-compact-theme",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A simple Firefox compact theme",
   "keywords": [
     "compact",
@@ -25,6 +25,6 @@
   },
   "scripts": {
     "start": "jpm watchpost --post-url http://localhost:8888/",
-    "build": "jpm post --post-url http://localhost:8888/"
+    "build": "jpm xpi"
   }
 }

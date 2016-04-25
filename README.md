@@ -21,31 +21,11 @@ with and **Slim Chrome** enabled (see *Beyond Australis* addon preferences).
 
 ## Installation
 
-**For now this theme is not published or packaged anywhere since I didn't take
-the time to (see note below).**
+https://addons.mozilla.org/en-US/firefox/addon/compact-theme/
 
-For now, you have to turn off the cert checking
-- open a new tab with the following url
-  ``about:config?filter=xpinstall.signatures.required``
-- change `xpinstall.signatures.required` value to ``false``
+---
 
-Then you are ready to get the code and build the XPI.
-
-```clone
-$ git clone https://github.com/MoOx/firefox-compact-theme.git
-$ cd firefox-compact-theme
-$ npm install
-$ npm run build
-```
-
-This commands should build & push an XPI to Firefox.
-
-## TODO
-
-- publish with nice way to automate release/update
-- write some tests?
-
-## Notes
+## TODO / Notes
 
 This package has been made this way because I didn't know how to share this
 so I asked on StackOverflow :
