@@ -1,2 +1,18 @@
+# OK JPM
+.jpmignore
+
+# Ignore .DS_Store files created by mac
+.DS_Store
+
+# Ignore any zip or xpi files
+*.zip
+*.xpi
+
+.git
+.gitignore
+
 .editorconfig
+
 node_modules
+
+test
