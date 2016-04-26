@@ -15,8 +15,9 @@
 **For now, only tested on OS X. Improvements are welcome.**
 
 - This theme play nice with
-[Beyond Australis](https://addons.mozilla.org/en-US/firefox/addon/the-fox-only-better/)
-with and **Slim Chrome** enabled (see *Beyond Australis* addon preferences).
+  [Beyond Australis](https://addons.mozilla.org/en-US/firefox/addon/the-fox-only-better/)
+  with and **Slim Chrome** enabled and **Sky Lights** disabled
+  (see *Beyond Australis* add-on preferences).
 - You should probably _Customize_ Firefox and remove the "New tab" button from the tab bar.
 
 ## Installation
