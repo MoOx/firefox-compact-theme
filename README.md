@@ -1,12 +1,15 @@
 # Firefox Compact theme
 
-[![Support on gitter chat](https://img.shields.io/badge/support-gitter%20chat-E40255.svg)](https://gitter.im/MoOx/firefox-compact-theme)
-
 [![Repo on GitHub](https://img.shields.io/badge/repo-GitHub-3D76C2.svg)](https://github.com/MoOx/firefox-compact-theme)
 [![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-6C488A.svg)](https://gitlab.com/MoOx/firefox-compact-theme)
 [![Repo on BitBucket](https://img.shields.io/badge/repo-BitBucket-1F5081.svg)](https://bitbucket.org/MoOx/firefox-compact-theme)
 
 > A simple Firefox compact theme
+
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/6RNUx3a3Vj2k5iApeppsc9L9/MoOx/firefox-compact-theme'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/6RNUx3a3Vj2k5iApeppsc9L9/MoOx/firefox-compact-theme.svg' />
+</a>
+
 
 <p align="center">
   <img alt="" src="screenshot.png" />
