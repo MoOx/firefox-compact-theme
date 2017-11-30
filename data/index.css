@@ -47,13 +47,13 @@
 
 .tabbrowser-tab:hover {
   border-color: rgba(0,0,0, .2);
-  background: rgba(255,255,255, .5);
+  background: rgba(255,255,255, .3);
   margin-bottom: 1px;
 }
 
 .tabbrowser-tab[visuallyselected=true] {
   border-color: rgba(0,0,0, .3);
-  background: rgba(255,255,255, .85);
+  background: rgba(255,255,255, .5);
   margin-bottom: 1px;
 }
 
